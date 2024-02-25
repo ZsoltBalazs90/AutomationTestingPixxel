@@ -24,12 +24,16 @@ public class Login {
           loginPage.getTitle();
           loginPage.getCurrentURL();
           loginPage.getTextElement();
+          loginPage.clickOnCheckout();
+          loginPage.fillPersonalData("ThisIsMyFirstName", "ThisIsMyLastName", "400400");
+          loginPage.clickContinue();
+          loginPage.clickFinish();
 //        loginPage.getPageSourceURL();
 //        loginPage.getTextElement();
 //        loginPage.getAttributeElement();
 //        loginPage.clearTextBox("bug mafia");
 //        loginPage.clearFewCharacters("bug mafia");
-//        loginPage.close();
+          loginPage.close();
 
     }
 }

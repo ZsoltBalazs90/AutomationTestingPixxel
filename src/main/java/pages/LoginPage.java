@@ -65,10 +65,10 @@ public class LoginPage {
 //    }
 
         public void addText(String username, String password){
-        WebElement textBox1 = driver.findElement(By.xpath("//input[@id='user-name']"));
-        textBox1.sendKeys(username);
-        WebElement textBox2 = driver.findElement(By.xpath("//input[@id='password']"));
-        textBox2.sendKeys(password);
+            WebElement textBox1 = driver.findElement(By.xpath("//input[@id='user-name']"));
+            textBox1.sendKeys(username);
+            WebElement textBox2 = driver.findElement(By.xpath("//input[@id='password']"));
+            textBox2.sendKeys(password);
 
     }
 
@@ -97,6 +97,31 @@ public class LoginPage {
 //        String price= driver.findElements(By.xpath("//div[@class= 'inventory_item_price']")).getAttribute("class");
 //            System.out.println(" Pretul produsului selectat, folosind metoda getAttribute(), este: "+ price);
 //        }
+
+        public void clickOnCheckout() {
+            WebElement checkout= driver.findElement(By.xpath("//button[@id='checkout']"));
+            checkout.click();
+    }
+
+    public void fillPersonalData(String firstName, String lastName, String zipCode) {
+        WebElement textBox1= driver.findElement(By.xpath("//input[@ id= 'first-name']"));
+        textBox1.sendKeys(firstName);
+        WebElement textBox2= driver.findElement(By.xpath("//input[@ id= 'last-name']"));
+        textBox2.sendKeys(lastName);
+        WebElement textBox3= driver.findElement(By.xpath("//input[@ id= 'postal-code']"));
+        textBox3.sendKeys(zipCode);
+
+    }
+
+        public void clickContinue() {
+            WebElement clickcon= driver.findElement(By.xpath("//input[@ id= 'continue']"));
+            clickcon.click();
+        }
+
+        public void clickFinish() {
+            WebElement clickFinish= driver.findElement(By.xpath("//button[@id='finish']"));
+            clickFinish.click();
+        }
 
 
 //    public void getTextElement(){
