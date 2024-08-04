@@ -1,0 +1,15 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¸¬ùËşÿÿÿÿJ$28b64c1d-d5b4-4e54-a9ab-f3dda3015877
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$701ef61b-3929-42f2-a04b-b80982550d04
+|	java:S125"<This block of commented-out lines of code should be removed.(öÁ“ùÿÿÿÿJ$d03ea70e-f1eb-4309-b809-68e1f17fc86e
+|	java:S125#"<This block of commented-out lines of code should be removed.(¾û­ùÿÿÿÿJ$4fc67bef-4766-48e8-960f-70269e91e2e1
+k	java:S1060"+Replace this use of System.out by a logger.(æ¤£‡üÿÿÿÿJ$a9e6bdc1-76c5-4869-b18b-f59b83630e3e
+f	java:S1064"+Replace this use of System.out by a logger.(áš”øJ$1bc16900-77df-46be-8412-d3e184c534ee
+k	java:S106Q"+Replace this use of System.out by a logger.(ÖŸÓùøÿÿÿÿJ$ac98863f-f2b8-4855-81d5-ce4e8415168d
+|	java:S125n"<This block of commented-out lines of code should be removed.(œî¤şüÿÿÿÿJ$486c4fc4-c7f2-457e-aa56-bf7a3b496248
+|	java:S125t"<This block of commented-out lines of code should be removed.(é‰ˆÿÿÿÿÿJ$7cd433cb-1766-44a3-8ad1-45ee8ad5e73f
+|	java:S125y"<This block of commented-out lines of code should be removed.(¼†³ùùÿÿÿÿJ$9787b455-5e89-40d5-8b0d-b1358e370926
+x	java:S125‰"<This block of commented-out lines of code should be removed.(ÿ‰Ò›J$5052f6a6-30ad-4455-a089-02cf7f827d86
+}	java:S125•"<This block of commented-out lines of code should be removed.(™ñèüşÿÿÿÿJ$ae1b078b-0844-4b04-a9f9-1de6c7c079b0
+q
+java:S1128"5Remove this unused import 'org.openqa.selenium.Keys'.(§ÕJ$2cd1f144-508d-41ee-b0ad-710590fe9816

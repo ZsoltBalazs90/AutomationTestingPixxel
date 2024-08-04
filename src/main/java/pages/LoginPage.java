@@ -51,18 +51,6 @@ public class LoginPage {
     public void getCurrentURL(){
         System.out.println(driver.getCurrentUrl());
     }
-//
-//    public void getPageSourceURL(){
-//        System.out.println(driver.getPageSource());
-//    }
-
-
-//    public void addText(String text){
-//        WebElement textBox = driver.findElement(By.xpath("//div[@id = 'search-input']//input"));
-//        textBox.sendKeys(text);
-//        WebElement clickSearch = driver.findElement(By.xpath("//button[@id = 'search-icon-legacy']"));
-//        clickSearch.click();
-//    }
 
         public void addText(String username, String password){
             WebElement textBox1 = driver.findElement(By.xpath("//input[@id='user-name']"));
@@ -90,13 +78,8 @@ public class LoginPage {
 
         public void getTextElement(){
             WebElement price= driver.findElement(By.xpath("//div[@class= 'inventory_item_price']"));
-            System.out.println(" Pretul produsului selectat, folosind metoda getText(), este: "+ price.getText());
+            System.out.println(" Pretul produsului selectat, este: "+ price.getText());
         }
-//        primesc erroare la getAttribute("class")
-//        public void getAttributeElement(){
-//        String price= driver.findElements(By.xpath("//div[@class= 'inventory_item_price']")).getAttribute("class");
-//            System.out.println(" Pretul produsului selectat, folosind metoda getAttribute(), este: "+ price);
-//        }
 
         public void clickOnCheckout() {
             WebElement checkout= driver.findElement(By.xpath("//button[@id='checkout']"));
@@ -124,58 +107,6 @@ public class LoginPage {
         }
 
 
-//    public void getTextElement(){
-//        WebElement element = driver.findElement(By.xpath("//yt-formatted-string[@class = 'style-scope ytd-channel-name'][1]"));
-//        System.out.println("preluare cu metoda getText(): " + element.getText());
-//    }
-
-
-//    public void getAttributeElement(){
-//        String element =  driver.findElement(By.xpath("//div[@class = 'page-header-banner-image style-scope ytd-c4-tabbed-header-renderer']")).getAttribute("class");
-//        System.out.println("s-a folosit metoda getAttribute(): "+ element);
-//    }
-
-//    protected void clear(WebElement locator, String typeOfRunning) {
-//        click(locator);
-//        if (typeOfRunning.equalsIgnoreCase("local")) {
-//            if (getOperationSystem().contains("Windows")) {
-//                System.out.println(getOperationSystem().toString());
-//                locator.sendKeys(Keys.chord(Keys.CONTROL, "a"));
-//            } else if (getOperationSystem().contains("Mac OS X")) {
-//                locator.sendKeys(Keys.chord(Keys.COMMAND, "a"));
-//            }
-//        } else {
-//            click(locator);
-//            locator.clear();
-//        }
-//    }
-
-
-//    public void clearFewCharacters(String text){
-//        WebElement textBox = driver.findElement(By.xpath("//div[@id = 'search-input']//input"));
-//        textBox.sendKeys(text.substring(0,3));
-//        textBox.clear();
-//        int i = text.length();
-//        while(i>=5){
-//            textBox.sendKeys(Keys.CONTROL + "a" + Keys.BACK_SPACE);
-//            i--;
-//        }
-//    }
-
-
-//    public void clearTextBox(String text){
-//        driver.navigate().back();
-//        WebElement textBox = driver.findElement(By.xpath("//div[@id = 'search-input']//input"));
-//        textBox.sendKeys(text);
-//        textBox.clear();
-//        try {
-//            Thread.sleep(2000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
-//        textBox.sendKeys(text);
-//
-//    }
 
 
     public void close(){
